@@ -20,6 +20,7 @@ pip install openai python-dotenv aiohttp pillow
 2. 在项目根目录创建 `.env` 文件，添加以下内容：
 ```env
 SILICONFLOW_API_KEY=你的SiliconFlow API密钥
+API_KEY="你的Deepseek API 密钥"
 ```
 > ⚠️ 重要：请勿将 API 密钥硬编码到代码中，避免泄露
 
